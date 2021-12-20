@@ -1,0 +1,306 @@
+#title {
+  background-color:rgb(246, 181, 83)
+}
+body {
+  font-family: Montserrat;
+}
+h1  {
+  font-family: Montserrat;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: Montserrat-Bold;
+}
+p {
+  color: #8f8b8b;
+}
+.row {
+  position: static
+}
+  .container-title:hover .desc {
+    visibility:visible;
+    z-index: 7;
+    position:relative;
+    transition-delay: 500ms;
+    display:block;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+} 
+.title-wrap {
+  height: auto;
+  width: auto;
+  background-color: rgb(246, 181, 83);
+  z-index: 6;
+}
+
+.desc {
+  background-color: rgb(246, 181, 83);
+  font-size: 1rem;
+  position:absolute;
+  font-weight: normal;
+  z-index: 7;
+  display:block;
+  text-align:left;
+  position: relative;
+  margin-left: 600px;
+  margin-bottom: -400px;
+  padding-top: 100px;
+  
+}
+.rounded-corners {
+  border-radius: 900px;
+  position:absolute;
+}
+.title-image{
+  transition:all .5s ease;
+  display:block;
+}
+.title-image {
+  position:relative;
+  display:block;
+  
+}
+
+.image-txt {
+  position: absolute;
+  display:block;
+  
+}
+.title-image:hover {
+  position:absolute;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+  transition:all .5s ease;
+  z-index: 0;
+  
+}
+.container-fluid {
+  padding: 3% 15% ;
+}
+.container-fluid1 {
+  padding-bottom: 200px;
+}
+
+.navbar-brand {
+  font-family: Montserrat;
+  font-size: 4rem;
+  line-height: 1;
+}
+.navbar{
+  padding: 4rem 0 4.5rem;
+  height: 150px;
+  z-index: 2;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: montserrat-light;
+}
+/* downloadbuttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+
+/* features */
+#features {
+  padding: 0% 15%;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: rgb(246, 181, 83);
+  margin-bottom: 1rem;
+
+}
+.icon:hover {
+  color:rgb(246, 123, 40);
+}
+#pricing {
+ 
+  padding: 0% 15%;
+}
+/* membership */
+.join {
+  text-align: center;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 5vw;
+  height: 5vw;
+}
+.carousel-item {
+  padding: 0% 15%;
+  background-color: rgb(246, 181, 83);
+}
+#cta {
+  padding-top: 3%;
+
+}
+
+
+
+
+
+  /* top:200px;
+  left:100px;
+  width:auto;
+  height:auto;  
+  z-index:999; */
+
+
+
+.title-zoom-on-hover { background: url('images/spicychicken1.JPG') 0 0 no-repeat; }
+.title-zoom-on-hover:hover { background-position: 0 -40px; }
+
+@media (min-width: 576px) { 
+  .title-image {
+    width: 50%;
+  position: static;
+  position: center;
+  display: block;
+  transform: rotate(0deg);
+  }
+  .title-text {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) { 
+  .title-image {
+    width: 70%;
+  position: static;
+  position: center;
+  display: block;
+  transform: rotate(0deg);
+  }
+  .navbar {
+    padding-bottom: 110px;
+  }
+  .title-text {
+    text-align: center;
+  }
+ }
+
+@media (min-width: 992px) { 
+  .title-image {
+    width: 60%;
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  
+  }
+ }
+
+@media (min-width: 1200px) { 
+.title-image {
+  width: 35%;
+  position: center;
+  margin: auto;
+  z-index: 1;
+  }
+.title-text {
+  text-align: left;
+}
+  }
+/* cta */
+  .cta {
+    background-color: rgb(246, 181, 83);
+    text-align: center;
+    padding: 5% 15%;
+    
+  }
+  .cta-text {
+    font-family: "Montserrat-Black";
+    text-align: center;
+  }
+
+  #footer {
+    padding: 4% 15%;
+    text-align: center;
+  }
+  .footer-icons {
+    padding: 0% 5% 3%;
+   width: 200px;
+  }
+
+ 
+ 
+  .btnt {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: slateblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    transition: transform 250ms;
+  }
+  .btnt:hover {
+    transform: translateY(-12px);
+  }
+
+
+
+  .lje {
+    font-size: 4rem;
+  }
+  .icon-color {
+    color: black;
+  }
+
+  .fa-youtube:hover {
+    color: #ff0000;
+    text-shadow: 0 0 3px #ff0000;
+  }
+  .fa-instagram:hover   {
+    color:rgb(83, 83, 255);
+  }
+  .fa-linkedin:hover {
+    color:rgb(49, 130, 236);
+  }
+  .fa-twitch:hover {
+    color:rgb(93, 22, 105);
+  }
+  .fa-patreon:hover {
+    color:rgba(246, 170, 29, 0.89);
+  }
+  .fa-envelope:hover {
+    color:rgb(63, 255, 57);
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
