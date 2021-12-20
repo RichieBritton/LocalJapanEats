@@ -1,0 +1,2 @@
+# LocalJapanEats
+Future Food Blog!
